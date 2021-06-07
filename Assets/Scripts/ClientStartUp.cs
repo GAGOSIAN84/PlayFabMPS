@@ -47,7 +47,7 @@ public class ClientStartUp : MonoBehaviour
 
     private void OnPlayFabLoginSuccess(LoginResult response)
     {
-        Debug.Log(response.ToString());
+        Debug.Log("OnPlayFabLoginSuccess: " + response.ToString());
         if (ipAddress == string.Empty)
         {   //We need to grab an IP and Port from a server based on the buildId. Copy this and add it to your Configuration.
             RequestMultiplayerServer();
@@ -94,7 +94,7 @@ public class ClientStartUp : MonoBehaviour
             //telepathyTransport.port = (ushort)response.Ports[0].Num;
             //apathyTransport.port = (ushort)response.Ports[0].Num;
         }
-
+        
         NetworkManager.Singleton.StartClient();
     }
 
