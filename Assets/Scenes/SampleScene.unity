@@ -156,9 +156,9 @@ MonoBehaviour:
   MessageBufferSize: 5120
   MaxConnections: 100
   MaxSentMessageQueueSize: 128
-  ConnectAddress: 20.84.28.24
-  ConnectPort: 30000
-  ServerListenPort: 30000
+  ConnectAddress: 20.84.0.239
+  ConnectPort: 7777
+  ServerListenPort: 7777
   ServerWebsocketListenPort: 8887
   SupportWebsocket: 0
   Channels: []
@@ -512,7 +512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1478115031
 Transform:
   m_ObjectHideFlags: 0
@@ -651,7 +651,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2082699840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,9 +664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03da2e17a4aa84bdd957ad79dd216181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildId: e14b51c2-bab3-4315-9dac-8fa18914e2fe
-  ipAddress: 20.84.28.24
-  port: 30000
+  buildId: 94133a4e-7329-44f4-a2bf-7af5ef943d59
+  ipAddress: 20.84.0.239
+  port: 7777
 --- !u!4 &2082699841
 Transform:
   m_ObjectHideFlags: 0
